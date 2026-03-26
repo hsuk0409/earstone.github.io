@@ -7,6 +7,11 @@ sidebar:
   nav: "docs"
 ---
 
+# 최 현 석 (Choi Hyun-suk)
+**Email:** hsuk0409@gmail.com
+
+---
+
 ## Introduction
 - Antigravity 기반의 에이전틱 워크플로우를 통해 복잡한 비즈니스 로직을 효율적으로 설계하고 구현합니다.
 - 6년의 서버 개발 경험을 바탕으로 도메인 중심 설계(DDD)와 포트-어댑터 패턴을 실천합니다.
