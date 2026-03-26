@@ -1,13 +1,13 @@
 ---
 layout: single
-title: "AI 에이전트와 협업하는 서버 개발자, 최현석"
+title: ""
 permalink: /resume/
 author_profile: true
 sidebar:
   nav: "docs"
 ---
 
-# 최 현 석 (Choi Hyun-suk)
+# 최 현 석 (Choi Hyeon-suk)
 **Email:** hsuk0409@gmail.com
 
 ---
