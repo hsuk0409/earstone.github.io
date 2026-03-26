@@ -29,13 +29,14 @@ sidebar:
   - **무중단 보호 시스템:** Foreground Service와 Wake-Lock을 활용하여 화면이 꺼진 상태에서도 끊김 없는 모니터링을 보장하며, BootReceiver를 통해 기기 재부팅 시에도 실시간 감지 서비스가 자동 실행되도록 구현했습니다.
   - **자동 긴급 구조 워크플로우:** 낙상 감지 시 자동으로 화면을 점등하고 30초 카운트다운을 시작합니다. 사용자 응답이 없을 경우 GPS 기반 실시간 위치 정보와 Google Maps 링크가 포함된 SOS 문자를 보호자에게 자동 발송합니다.
 - **GitHub:** [https://github.com/hsuk0409/Elderly-Fall-Guard](https://github.com/hsuk0409/Elderly-Fall-Guard)
-- **Visuals:** 
-  ![낙상 앱 캡처](../assets/images/fallguard_background.jpeg){: .align-center}
 
 ### 2. 위치 기반 음성 메모 앱 (진행중)
 - **핵심 기술:** React Native, NestJS, PostgreSQL, Docker, Webhook
-- **설명:** 사용자 위치를 실시간으로 파악하여 특정 장소 근처에서 필요한 음성 리마인더를 제공합니다.
-- **Status:** ![Developing](https://img.shields.io/badge/Status-Developing-green)
+- **설명:** 사용자 위치를 기반으로 음성 메모를 저장하고 관리하는 지능형 리마인더 서비스입니다.
+- **상세 내용:** 
+  - 특정 장소에서 잊기 쉬운 할 일이나 기록을 음성으로 즉시 저장합니다.
+  - 사용자가 해당 지점 반경 n미터 이내로 진입하면, 해당 위치와 관련된 모든 메모를 자동으로 한곳에 모아 사용자에게 인지시켜 줍니다.
+  - 복잡한 일상 속에서 위치 기반 트리거를 통해 중요한 정보를 놓치지 않도록 돕는 것을 목표로 합니다.
 - **GitHub:** [https://github.com/hsuk0409/voice-geo-memo](https://github.com/hsuk0409/voice-geo-memo)
 
 ---
