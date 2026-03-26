@@ -27,8 +27,8 @@ sidebar:
 - **Visuals:** 
   ![낙상 앱 캡처](../assets/images/fallguard_background.jpeg){: .align-center}
 
-### 2. 위치 기반 음성 메모 "voice-geo-memo" (진행중)
-- **핵심 기술:** React Native, Node.js, Docker, Webhook
+### 2. 위치 기반 음성 메모 앱 (진행중)
+- **핵심 기술:** React Native, NestJS, PostgreSQL, Docker, Webhook
 - **설명:** 사용자 위치를 실시간으로 파악하여 특정 장소 근처에서 필요한 음성 리마인더를 제공합니다.
 - **Status:** ![Developing](https://img.shields.io/badge/Status-Developing-green)
 - **GitHub:** [https://github.com/hsuk0409/voice-geo-memo](https://github.com/hsuk0409/voice-geo-memo)
