@@ -23,7 +23,7 @@ sidebar:
 
 ### 1. 시니어 케어: 노인 낙상 관리 앱 (Android)
 - **핵심 기술:** Kotlin, Accelerometer Sensor, Foreground Service, Broadcast Receiver, SMS Manager, Google Maps API
-- **설명:** 고도화된 3단계 낙상 감지 알고리즘 및 자동 긴급 구조 시스템 구현.
+- **설명:** 고도화된 3단계 낙상 감지 알고리즘을 통한 자동 긴급 구조 서비스입니다.
 - **상세 내용:** 
   - **3단계 센서 데이터 검증:** 자유낙하(3.5 m/s² 이하) -> 충격(55.0 m/s² 이상) -> 정지(1.5초간 움직임 없음)의 3단계 로직을 통해 일상적인 움직임과 실제 낙상을 정밀하게 구분하여 오탐율을 최소화했습니다.
   - **무중단 보호 시스템:** Foreground Service와 Wake-Lock을 활용하여 화면이 꺼진 상태에서도 끊김 없는 모니터링을 보장하며, BootReceiver를 통해 기기 재부팅 시에도 실시간 감지 서비스가 자동 실행되도록 구현했습니다.
@@ -66,11 +66,11 @@ sidebar:
 *서버 개발자 / 정규직*
 
 - **결제 구독권 시스템 개발 및 고도화 (2022.04 - 2022.10)**
-  - Java, Spring Boot, MongoDB 기반.
+  - Java, Spring Boot, MongoDB 기반 시스템 유지보수 및 기능 개선.
   - DTO 활용을 통한 주요 비즈니스 로직 캡슐화 및 테스트 코드 작성.
   - Spring Interceptor 및 Wrapper를 활용하여 요청 바디 스트림 재설정 문제 해결 및 결제 유효성 검증 최적화.
 - **오픈마켓 연동 개발 (2021.09 - 2022.03)**
-  - 롯데온, 카페24 등 다양한 오픈마켓 OpenAPI 연동 (Python, Flask, AWS Lambda).
+  - 롯데온, 카페24 등 다양한 오픈마켓 OpenAPI 연동(Python, Flask, AWS Lambda).
 
 ### **빌리지피플** (2020.03 - 2021.08)
 *백엔드 개발자 / 정규직*
@@ -84,7 +84,7 @@ sidebar:
 
 ---
 
-## 🛠 Technical Skills
+## Technical Skills
 - **Languages:** Java, Python, Node.js (JavaScript/TypeScript), Go, PHP
 - **Frameworks:** Spring Boot, NestJS, Flask, ExpressJS, Vue.js
 - **Infrastructure:** Docker, AWS (Lambda, API Gateway), MySQL, MariaDB, MongoDB, Redis, Linux
@@ -92,16 +92,18 @@ sidebar:
 
 ---
 
-## 🎓 Education
+## Education
 - **단국대학교** (2016.03 - 2019.02) - 운동처방재활학과 학사 졸업
 - **경민대학교** (2012.03 - 2016.02) - 레저스포츠과 전문학사 졸업
 
-## 📜 Awards & Certificates
+---
+
+## Awards & Certificates
 - **정보처리기사** (2019.08) - 한국산업인력공단
 - **2급 생활스포츠지도사(보디빌딩)** (2018.07) - 국민체육진흥공단
 
 ---
 
-## 🔗 Links
+## Links
 - [Tistory Blog](https://earstone.tistory.com/)
 - [GitHub](https://github.com/hsuk0409)
