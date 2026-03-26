@@ -1,0 +1,58 @@
+# 1. 사이트 기본 설정
+title            : "최현석 | AI 에이전트 협업 서버 개발자"
+name             : "최현석"
+description      : "6년 차 백엔드 개발자로서 에이전틱 워크플로우를 실천합니다." #
+url              : "https://hsuk0409.github.io"
+baseurl          : "" # 하위 경로가 없다면 비워둡니다.
+repository       : "hsuk0409/hsuk0409.github.io"
+teaser           : /assets/images/profile.png # 공유 시 나타나는 미리보기 이미지
+
+# 2. 테마 설정 (필수)
+theme            : "minimal-mistakes-jekyll"
+minimal_mistakes_skin : "default" # "air", "contrast", "dark" 등으로 변경 가능합니다.
+
+# 3. 저자 정보 (사이드바 출력용)
+author:
+  name   : "최현석"
+  bio    : "Antigravity 기반 에이전틱 프로그래밍 및 도메인 중심 설계" #
+  location : "Seoul, Korea"
+  #avatar : "/assets/images/profile.png" # 준비된 프로필 사진 경로
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hsuk0409"
+    - label: "Blog"
+      icon: "fas fa-fw fa-link"
+      url: "https://earstone.tistory.com/"
+
+# 4. 빌드 설정 (필수)
+include: ["_pages"]
+exclude:
+  - bin
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .jekyll-cache
+
+# 5. 마크다운 해석 및 강조 (필수)
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# 6. 기본 레이아웃 적용 (매번 상단에 layout: single 안 써도 됨)
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
