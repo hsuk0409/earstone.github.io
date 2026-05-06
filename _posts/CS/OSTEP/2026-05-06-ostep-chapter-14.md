@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "[OSTEP] 14. 메모리 관리 API (Interlude: Memory API)"
 date: 2026-05-06 08:43:00 +0900
 categories: [Engineering, OS]

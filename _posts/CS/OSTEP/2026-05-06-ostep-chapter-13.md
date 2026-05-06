@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "[OSTEP] 13. 주소 공간의 개념 (The Abstraction: Address Spaces)"
 date: 2026-05-06 08:16:00 +0900
 categories: [Engineering, OS]

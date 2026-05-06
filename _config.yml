@@ -6,6 +6,7 @@ url              : "https://hsuk0409.github.io"
 baseurl          : "" # 하위 경로가 없다면 비워둡니다.
 repository       : "hsuk0409/hsuk0409.github.io"
 teaser           : /assets/images/profile.png # 공유 시 나타나는 미리보기 이미지
+permalink        : /:categories/:title/
 
 # 2. 테마 설정 (필수)
 theme            : "minimal-mistakes-jekyll"
