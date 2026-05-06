@@ -68,3 +68,16 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+# 8. Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# 9. Pagination 설정
+paginate: 5
+paginate_path: "/page:num/"

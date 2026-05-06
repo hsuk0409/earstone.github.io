@@ -1,12 +1,12 @@
 ---
 layout: home
 author_profile: true
-entries_layout: grid
+entries_layout: list
 ---
 
-# 최신 기술 블로그 및 아키텍처 기록
+# 안녕하세요! 최현석의 기술 블로그입니다.
 
-안녕하세요! AI 에이전틱 워크플로우에 관심이 많은 개발자의 고민을 기록하는 공간입니다.
+**에이전틱 워크플로우(Agentic Workflow)**와 **도메인 중심 설계(DDD)**를 실천하며 얻은 고민과 아키텍처 기록을 공유합니다.
 
 ---
 

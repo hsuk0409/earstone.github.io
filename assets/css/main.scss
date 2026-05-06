@@ -7,3 +7,23 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Home layout sidebar to the right */
+.layout--home #main {
+  @media (min-width: 64em) {
+    display: flex;
+    flex-direction: row-reverse;
+    
+    .sidebar {
+      width: calc(25% - 1em);
+      margin-right: 0;
+      margin-left: 1em;
+      padding-right: 0;
+    }
+
+    .archive {
+      width: calc(75% - 1em);
+      margin-right: 1em;
+    }
+  }
+}
