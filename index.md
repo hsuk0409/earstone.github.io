@@ -2,6 +2,8 @@
 layout: home
 author_profile: true
 entries_layout: list
+sidebar:
+  nav: "ostep"
 ---
 
 # 안녕하세요! 최현석의 기술 블로그입니다.
