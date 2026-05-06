@@ -42,7 +42,10 @@ kramdown:
   hard_wrap: false
   syntax_highlighter: rouge
 
-# 6. 기본 레이아웃 적용 (매번 상단에 layout: single 안 써도 됨)
+# 6. UI 설정
+breadcrumbs: true
+
+# 7. 기본 레이아웃 적용
 defaults:
   - scope:
       path: ""
@@ -50,6 +53,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      toc_label: "목차"
+      toc_icon: "bars"
   - scope:
       path: ""
       type: pages

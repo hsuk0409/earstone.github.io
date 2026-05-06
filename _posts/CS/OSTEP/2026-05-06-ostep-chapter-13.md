@@ -4,6 +4,8 @@ title: "[OSTEP] 13. 주소 공간의 개념 (The Abstraction: Address Spaces)"
 date: 2026-05-06 08:16:00 +0900
 categories: [Engineering, OS]
 tags: [OSTEP, Memory, AddressSpace, VirtualMemory]
+sidebar:
+  nav: "ostep"
 ---
 
 현대 운영체제에서 메모리 관리는 '추상화와 격리'의 핵심입니다. 시스템이 어떻게 여러 프로세스에게 독립적인 메모리 공간이라는 환상을 제공하는지, OSTEP의 메모리 관리 시리즈의 첫 번째 주제인 **13장 주소 공간(Address Spaces)**의 내용을 정리합니다.

@@ -3,6 +3,15 @@ main:
   - title: "Resume"
     url: /resume/
 
+# OSTEP Series Sidebar
+ostep:
+  - title: "OSTEP 시리즈"
+    children:
+      - title: "13. 주소 공간의 개념"
+        url: /engineering/os/ostep-chapter-13/
+      - title: "14. 메모리 관리 API"
+        url: /engineering/os/ostep-chapter-14/
+
 # Docs sidebar for Resume page
 docs:
   - title: "Resume Navigation"

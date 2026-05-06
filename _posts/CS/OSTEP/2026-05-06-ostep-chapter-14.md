@@ -4,6 +4,8 @@ title: "[OSTEP] 14. 메모리 관리 API (Interlude: Memory API)"
 date: 2026-05-06 08:43:00 +0900
 categories: [Engineering, OS]
 tags: [OSTEP, Memory, Malloc, Free, MemoryLeak]
+sidebar:
+  nav: "ostep"
 ---
 
 13장에서 주소 공간(Address Space)이라는 추상화된 개념을 배웠다면, 14장은 이를 실제로 다루기 위한 **'도구(API)'**에 대해 이야기합니다. C언어를 기준으로 설명되지만, 여기서 발생하는 문제들은 현대의 고수준 언어(JS, Java 등)가 왜 그렇게 설계되었는지를 이해하는 데 결정적인 힌트를 줍니다.
