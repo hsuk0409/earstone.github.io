@@ -11,6 +11,8 @@ ostep:
         url: /engineering/os/ostep-chapter-13/
       - title: "14. 메모리 관리 API"
         url: /engineering/os/ostep-chapter-14/
+      - title: "15. 주소 변환의 원리"
+        url: /engineering/os/ostep-chapter-15/
 
 # Docs sidebar for Resume page
 docs:
