@@ -13,6 +13,10 @@ ostep:
         url: /engineering/os/ostep-chapter-14/
       - title: "15. 주소 변환의 원리"
         url: /engineering/os/ostep-chapter-15/
+      - title: "16. 세그멘테이션"
+        url: /engineering/os/ostep-chapter-16/
+      - title: "17. 빈 공간 관리"
+        url: /engineering/os/ostep-chapter-17/
 
 # Docs sidebar for Resume page
 docs:
